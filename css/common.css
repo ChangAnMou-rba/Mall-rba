@@ -1,0 +1,37 @@
+@import 'reset.css';
+/*头部导航栏*/
+header {
+  width: 7.5rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0.2rem 0rem;
+}
+header nav {
+  width: 7rem;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .part {
+  font-size: 0.2rem;
+}
+header nav .part img {
+  width: 0.42rem;
+  height: 0.41rem;
+}
+header nav .part span {
+  font-weight: bold;
+}
+/*底部*/
+footer {
+  width: 7.5rem;
+  padding: 0.15rem 0rem;
+  border-top: 0.01rem solid #ddd;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+footer ul li a img {
+  width: 0.63rem;
+  height: 0.63rem;
+}

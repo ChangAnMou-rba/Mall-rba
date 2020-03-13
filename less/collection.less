@@ -1,0 +1,98 @@
+@import 'reset.css';
+@import 'common.css';
+@colorBg: rgb(252, 84, 89);
+@colorGreen:rgb(11,243,191);
+@color  : #999;
+@width  : 7rem;
+@margin : 0px auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+
+article{
+    width:7.5rem;
+    background: rgb(248,248,248);
+    padding-bottom: 0.5rem;
+    section{
+        margin-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        .bottom{
+            width: 6.9rem;
+            margin: @margin;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 0.1rem;
+            
+            .part{
+                padding: 0.1rem 0rem;
+                display: @flex;
+                justify-content: space-between;
+                font-size: @font;
+                border-bottom: 1px solid #ddd;
+                
+                .left{
+                    
+                    img{
+                        width: 1.5rem;
+                        height: 1.8rem;
+                        vertical-align: middle;
+                        margin: 0rem 0.3rem 0rem 0.1rem;
+                    }
+                    .wrap{
+                       display: inline-block;
+                       height: 1.8rem;
+                       vertical-align: top;
+                    .father{
+                        display: inline-block;
+                        font-size: 0.22rem;
+                         color: @colorBg;
+                         margin-top: 0.1rem;
+                         
+                         .son{
+                             width: 0.75rem;
+                             height: 0.35rem;
+                             display: inline-block;
+                             border-radius: 0.05rem;
+                             background: @colorGreen;
+                             color: white;
+                             line-height: 0.35rem;
+                             text-align: center;
+                         }
+                         p{
+                             font-size: 0.22rem;
+                             color: #444;
+                             margin: 0.1rem 0rem;
+                             span{
+                                 font-size: @font;
+                                 color: @color;
+                                 text-decoration: line-through;
+                             }
+                         }
+                    }
+                }
+                }
+                .right{
+                    margin-right: 0.4rem;
+                    line-height: 1.8rem;
+                    img{
+                        width: 0.44rem;
+                        height: 0.47rem;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+    .button{
+        width: 6.25rem;
+        height: 0.9rem;
+        letter-spacing: 0.05rem;
+        margin: @margin;
+        font-size: 0.23rem;
+        background: @colorBg;
+        line-height: 0.9rem;
+        text-align: center;
+        border-radius: 0.9rem;
+        box-shadow: 0px 0px 0.2rem 0px @colorBg;
+    }
+}

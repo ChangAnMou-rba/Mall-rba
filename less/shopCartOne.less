@@ -1,0 +1,177 @@
+@import 'reset.css';
+@import 'common.css';
+@colorBg: rgb(252, 84, 89);
+@colorGreen:rgb(11,243,191);
+@color  : #999;
+@width  : 7rem;
+@margin : 0px auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+article{
+    width:7.5rem;
+    padding-bottom: 0.5rem;
+    section{
+        background: rgb(248,248,248);
+        .head{
+            padding: 0.4rem 0rem;
+            text-align: center;
+            p{
+                color: #333;
+                font-size: 0.22rem;
+                span{
+                    color: @colorBg;
+                    font-size: 0.21rem;
+                    font-weight: 700;
+                }
+            }
+        }
+        .wrap{
+            overflow: hidden;
+            width: 7.5rem;
+            .content{
+                
+                width: 100rem;
+                margin-left: 1rem;
+                
+                .box{
+                    background: white;
+                    padding-bottom: 0.3rem;
+                    display: inline-block;
+                    border-radius: 0.1rem;
+                    overflow: hidden;
+                    box-shadow: 0rem 0rem 0.2rem 0rem #999;
+                    img{
+                        width: 5.3rem;
+                        height: 5.8rem;
+                    }
+                    .p1{
+                        position: relative;
+                        font-size: 0.22rem;
+                        color: @colorBg;
+                        text-indent: 0.3rem;
+                        margin:0.3rem 0rem 0.1rem 0rem;
+                        .right{
+                            display: inline-block;
+                            position: absolute;
+                            right: 0.45rem;
+                            bottom: -0.2rem;
+                            img{
+                                width: 0.44rem;
+                                height: 0.4rem;
+                            }
+                        }
+                    }
+                    .p2{
+                        color: #444;
+                        font-size: 0.22rem;
+                        text-indent: 0.3rem;
+                        .span1{
+                            color: #999;
+                            text-decoration: line-through;
+                            font-size: @font;
+                            display: inline-block;
+                            margin-left: -0.2rem;
+                        }
+                        .span2{
+                            display: inline-block;
+                            width: 0.75rem;
+                            height: 0.35rem;
+                            background: @colorGreen;
+                            color: white;
+                            line-height: 0.35rem;
+                            text-indent: 0rem;
+                            text-align: center;
+                            border-radius: 0.05rem;
+                            margin-left: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            width: 6.9rem;
+            margin: @margin;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 0.1rem;
+            margin-bottom: 0.5rem;
+            .part{
+                padding: 0.3rem 0rem;
+                display: @flex;
+                justify-content: space-between;
+                font-size: @font;
+                border-bottom:1px solid #ddd;
+                
+                .left{
+                    
+                    img{
+                        width: 0.57rem;
+                        height: 0.54rem;
+                        vertical-align: middle;
+                        margin: 0rem 0.35rem 0rem 0.3rem;
+                    }
+                    span{
+                        display: inline-block;
+                        font-size: 0.22rem;
+                         color: #444;
+                         vertical-align: middle;
+                    }
+                }
+                .right{
+                    margin-right: 0.2rem;
+                    img{
+                        width: 0.44rem;
+                        height: 0.47rem;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+    .section2{
+        margin-bottom: 1.15rem;
+        .wrap{
+            width: 6.9rem;
+            margin: @margin;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 0.1rem;
+        .part{
+            padding: 0.3rem 0rem;
+            display: @flex;
+            justify-content: space-between;
+            font-size: @font;
+            border-bottom: 1px solid #ddd;
+            .left{
+                span{
+                    display: inline-block;
+                    font-size: 0.22rem;
+                     color: @color;
+                     vertical-align: middle;
+                     margin-left: 0.4rem;
+                }
+            }
+            .right{
+                span{
+                    color: #444;
+                    margin-right: 0.4rem;
+                }
+            }
+
+        }
+    }
+    }
+    .button{
+        width: 6.25rem;
+        height: 0.9rem;
+        letter-spacing: 0.05rem;
+        margin: @margin;
+        font-size: 0.23rem;
+        background: @colorBg;
+        line-height: 0.9rem;
+        text-align: center;
+        border-radius: 0.9rem;
+        box-shadow: 0px 0px 0.2rem 0px @colorBg;
+    }
+}

@@ -1,0 +1,59 @@
+@import 'reset.css';
+@import 'common.css';
+article {
+  width: 7.5rem;
+  background: #f8f8f8;
+  padding-bottom: 0.5rem;
+}
+article section {
+  margin-bottom: 2rem;
+  padding-top: 0.45rem;
+}
+article section .content {
+  width: 6.9rem;
+  margin: 0px auto;
+}
+article section .content p {
+  font-size: 0.2rem;
+  color: #999999;
+}
+article section .content .container {
+  display: flex;
+  justify-content: space-between;
+}
+article section .content .container .box {
+  width: 3.3rem;
+  font-size: 0.24rem;
+  color: #333;
+  padding: 0.2rem 0rem;
+  border-bottom: 1px solid #ddd;
+}
+article section .content .part {
+  margin-top: 0.4rem;
+}
+article section .content .part .box-0 {
+  font-size: 0.24rem;
+  color: #333;
+  padding: 0.2rem 0rem;
+  border-bottom: 1px solid #ddd;
+}
+article section .content .wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+article section .content .wrap .part-0 {
+  width: 3.3rem;
+}
+article .button {
+  width: 6.25rem;
+  height: 0.9rem;
+  letter-spacing: 0.05rem;
+  margin: 0px auto;
+  font-size: 0.23rem;
+  background: #fc5459;
+  line-height: 0.9rem;
+  text-align: center;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 0.2rem 0px #fc5459;
+}

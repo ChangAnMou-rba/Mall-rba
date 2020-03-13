@@ -1,0 +1,82 @@
+@colorBg: rgb(252, 84, 89);
+@color  : #999;
+@width  : 7rem;
+@margin : 0rem auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+article{
+    .section-0{
+        height: 3.6rem;
+        overflow: hidden;
+    }
+    .section-1{
+        .ptext{
+            
+            font-size: @font;
+            color: @color;
+        }
+        .selColor{
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            width: 6.3rem;
+            margin: @margin;
+            text-align: center;
+            p{
+                
+                padding: 0.4rem 0rem;
+                font-size: 0.22rem;
+                color: #444;
+            }
+            .colorPointer{
+                padding-bottom: 0.4rem;
+                span{
+                    display: inline-block;
+                    width: 0.54rem;
+                    height: 0.54rem;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                    margin-right: 0.3rem;
+                }
+                .blue{
+                    background: rgb(22,100,196);
+                }
+                .green{
+                    background: rgb(11,243,191);
+                }
+                .red{
+                    background: @colorBg;
+                }
+                .yellow{
+                    border: 0.01rem solid rgb(255,198,0);
+                    padding: 0.1rem;
+                    margin: 0rem;
+                    i{
+                        display: inline-block;
+                        width: 0.54rem;
+                        height: 0.54rem;
+                        border-radius: 50%;
+                        background: rgb(255,198,0);
+                    }
+                }
+            }
+        }
+        .position{
+            text-align: center;
+            padding: 0.4rem 0rem;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 0.4rem;
+            img{
+                vertical-align: middle;
+                width: 0.42rem;
+                height: 0.54rem;
+                font-size: @font;
+            }
+            span{
+                display: inline-block;
+                font-size: 0.22rem;
+                color: @colorBg;
+            }
+        }
+    }
+}

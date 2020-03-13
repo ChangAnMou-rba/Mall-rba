@@ -1,0 +1,86 @@
+@import 'reset.css';
+@import 'common.css';
+article {
+  width: 7.5rem;
+}
+article section {
+  background: #f8f8f8;
+}
+article section .bg {
+  height: 3.6rem;
+  background: radial-gradient(#bd9783, #c6bcb7);
+}
+article section .content {
+  text-align: center;
+  font-size: 0.2rem;
+}
+article section .content .boxIcon {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #fc5459;
+  margin: -0.9rem auto 0.4rem;
+}
+article section .content h5 {
+  font-size: 0.24rem;
+  color: #fc5459;
+}
+article section .content i {
+  display: inline-block;
+  color: #999999;
+  font-size: 0.23rem;
+  margin: 0.1rem 0rem 0.2rem 0rem;
+}
+article section .content p {
+  color: #444;
+  font-size: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+article section .content p span {
+  display: inline-block;
+  padding: 0rem 0.1rem;
+  border-right: 1px solid #bbb;
+}
+article section .wrap {
+  overflow: hidden;
+  height: 5.3rem;
+}
+article section .wrap .bottom {
+  width: 6.9rem;
+  height: 100rem;
+  margin: 0px auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+article section .wrap .bottom .part {
+  padding: 0.3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #ddd;
+}
+article section .wrap .bottom .part .left img {
+  width: 0.57rem;
+  height: 0.54rem;
+  vertical-align: middle;
+  margin: 0rem 0.35rem 0rem 0.3rem;
+}
+article section .wrap .bottom .part .left span {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #444;
+  vertical-align: middle;
+}
+article section .wrap .bottom .part .right {
+  margin-right: 0.2rem;
+  line-height: 0.54rem;
+}
+article section .wrap .bottom .part .right span {
+  color: #fc5459;
+}
+article section .wrap .bottom .part .right img {
+  width: 0.44rem;
+  height: 0.47rem;
+  vertical-align: middle;
+}

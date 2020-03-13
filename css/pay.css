@@ -1,0 +1,76 @@
+@import 'reset.css';
+@import 'common.css';
+article {
+  width: 7.5rem;
+  background: #f8f8f8;
+  padding-bottom: 0.5rem;
+}
+article section {
+  margin-bottom: 0.3rem;
+}
+article section .head {
+  padding: 0.4rem 0rem;
+  text-align: center;
+}
+article section .head p {
+  color: #333;
+  font-size: 0.22rem;
+}
+article section .head p span {
+  color: #fc5459;
+  font-size: 0.21rem;
+  font-weight: 700;
+}
+article section .bottom {
+  width: 6.9rem;
+  margin: 0px auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 0.1rem;
+}
+article section .bottom .part {
+  padding: 0.3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #ddd;
+}
+article section .bottom .part .left img {
+  width: 0.57rem;
+  height: 0.54rem;
+  vertical-align: middle;
+  margin: 0rem 0.35rem 0rem 0.3rem;
+}
+article section .bottom .part .left span {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #444;
+  vertical-align: middle;
+}
+article section .bottom .part .left span p {
+  font-size: 0.2rem;
+  color: #999999;
+}
+article section .bottom .part .left span p span {
+  color: #444;
+}
+article section .bottom .part .right {
+  margin-right: 0.2rem;
+}
+article section .bottom .part .right img {
+  width: 0.44rem;
+  height: 0.47rem;
+  vertical-align: middle;
+}
+article .button {
+  width: 6.25rem;
+  height: 0.9rem;
+  letter-spacing: 0.05rem;
+  margin: 0px auto;
+  font-size: 0.23rem;
+  background: #fc5459;
+  line-height: 0.9rem;
+  text-align: center;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 0.2rem 0px #fc5459;
+}

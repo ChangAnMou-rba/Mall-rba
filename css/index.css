@@ -1,0 +1,102 @@
+@import 'reset.css';
+@import 'common.css';
+article .banner {
+  width: 7.5rem;
+  height: 5.3rem;
+  background: url(../img/index-0.jpeg);
+  position: relative;
+}
+article .banner .text {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0px 0px 0.4rem;
+}
+article .banner .text h3 {
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+article .banner .text p {
+  font-size: 0.2rem;
+  margin: 0.01rem 0rem;
+  color: #333;
+}
+article .banner .text .button {
+  margin: 0px auto;
+  width: 2rem;
+  line-height: 0.5rem;
+  background: #fc5459;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  font-size: 0.2rem;
+}
+article .banner .pointer {
+  position: absolute;
+  bottom: 0.4rem;
+  width: 7.5rem;
+  text-align: center;
+  display: inline-block;
+  left: 0rem;
+  font-size: 0.16rem;
+}
+article .banner .pointer span {
+  width: 0.15rem;
+  height: 0.15rem;
+  background: #d4d7da;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+article .banner .pointer .specil {
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.01rem solid white;
+  margin: 0rem 0.1rem;
+  background: transparent;
+}
+article section {
+  width: 7.5rem;
+  background: #f8f8f8;
+}
+article section .head .wrap {
+  width: 7rem;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  padding: 0.35rem 0rem;
+}
+article section .head .wrap .left h4 {
+  font-weight: normal;
+  font-size: 0.2rem;
+  color: #444;
+}
+article section .head .wrap .right {
+  font-size: 0.2rem;
+  color: #fc5459;
+}
+article section .box {
+  width: 7rem;
+  overflow: hidden;
+  margin: 0px auto;
+}
+article section .box .container {
+  width: 100rem;
+  margin-bottom: 0.3rem;
+}
+article section .box .container .content {
+  width: 2.7rem;
+  font-size: 0.2rem;
+  display: inline-block;
+}
+article section .box .container .content img {
+  width: 2.7rem;
+  height: 2.9rem;
+}
+article section .box .container .content p {
+  color: #444;
+  font-size: 0.2rem;
+  margin: 0.15rem 0px 0px 0px;
+}
+article section .box .container .content span {
+  font-size: 0.16rem;
+  color: #999999;
+}

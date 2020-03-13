@@ -1,0 +1,44 @@
+@import 'reset.css';
+article {
+  width: 7.5rem;
+  text-align: center;
+}
+article h4 {
+  color: #fc5459;
+  font-size: 0.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+article p {
+  color: #999999;
+  font-size: 0.24rem;
+}
+article p span {
+  color: #444;
+}
+article img {
+  width: 7.5rem;
+  height: 3.52rem;
+  margin: 1rem 0rem;
+}
+article .button {
+  width: 6.25rem;
+  height: 0.9rem;
+  letter-spacing: 0.05rem;
+  margin: 0px auto;
+  font-size: 0.23rem;
+  background: #fc5459;
+  line-height: 0.9rem;
+  text-align: center;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 0.2rem 0px #fc5459;
+}
+article .specil {
+  margin-top: 0.55rem;
+  background: white;
+  font-weight: 700;
+  box-shadow: 0px 0px 0.2rem 0px #999;
+}
+article .specil a {
+  color: #999999;
+}

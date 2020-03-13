@@ -1,0 +1,69 @@
+article .section-0 {
+  height: 3.6rem;
+  overflow: hidden;
+}
+article .section-1 .ptext {
+  font-size: 0.2rem;
+  color: #999999;
+}
+article .section-1 .selColor {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 6.3rem;
+  margin: 0rem auto;
+  text-align: center;
+}
+article .section-1 .selColor p {
+  padding: 0.4rem 0rem;
+  font-size: 0.22rem;
+  color: #444;
+}
+article .section-1 .selColor .colorPointer {
+  padding-bottom: 0.4rem;
+}
+article .section-1 .selColor .colorPointer span {
+  display: inline-block;
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+article .section-1 .selColor .colorPointer .blue {
+  background: #1664c4;
+}
+article .section-1 .selColor .colorPointer .green {
+  background: #0bf3bf;
+}
+article .section-1 .selColor .colorPointer .red {
+  background: #fc5459;
+}
+article .section-1 .selColor .colorPointer .yellow {
+  border: 0.01rem solid #ffc600;
+  padding: 0.1rem;
+  margin: 0rem;
+}
+article .section-1 .selColor .colorPointer .yellow i {
+  display: inline-block;
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  background: #ffc600;
+}
+article .section-1 .position {
+  text-align: center;
+  padding: 0.4rem 0rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.4rem;
+}
+article .section-1 .position img {
+  vertical-align: middle;
+  width: 0.42rem;
+  height: 0.54rem;
+  font-size: 0.2rem;
+}
+article .section-1 .position span {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #fc5459;
+}

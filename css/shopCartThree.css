@@ -1,0 +1,138 @@
+@import 'reset.css';
+@import 'common.css';
+article {
+  width: 7.5rem;
+  background: #f8f8f8;
+  padding-bottom: 0.5rem;
+}
+article .sec1 {
+  padding: 0.8rem 0rem;
+}
+article .sec1 .content {
+  width: 3.5rem;
+  margin: 0px auto;
+  background: white;
+  border-radius: 0.1rem;
+  overflow: hidden;
+  padding-bottom: 0.2rem;
+}
+article .sec1 .content img {
+  width: 3.5rem;
+  height: 4rem;
+}
+article .sec1 .content .p1 {
+  position: relative;
+  font-size: 0.22rem;
+  color: #fc5459;
+  text-indent: 0.3rem;
+  margin: 0.3rem 0rem 0.1rem 0rem;
+}
+article .sec1 .content .p1 .right {
+  display: inline-block;
+  position: absolute;
+  right: 0.45rem;
+  bottom: -0.2rem;
+}
+article .sec1 .content .p1 .right img {
+  width: 0.44rem;
+  height: 0.4rem;
+}
+article .sec1 .content .p2 {
+  color: #444;
+  font-size: 0.22rem;
+  text-indent: 0.3rem;
+}
+article .sec1 .content .p2 .span1 {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 0.2rem;
+  display: inline-block;
+  margin-left: -0.2rem;
+}
+article .sec1 .content .p2 .span2 {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.35rem;
+  background: #0bf3bf;
+  color: white;
+  line-height: 0.35rem;
+  text-indent: 0rem;
+  text-align: center;
+  border-radius: 0.05rem;
+  margin-left: 0.1rem;
+}
+article .sec2 {
+  width: 6.3rem;
+  margin: 0px auto;
+  font-size: 0.2rem;
+}
+article .sec2 .part {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+article .sec2 .part .left {
+  line-height: 0.74rem;
+  font-size: 0.22rem;
+  color: #444;
+}
+article .sec2 .part .right span {
+  font-size: 0.23rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+  line-height: 0.7rem;
+  border-radius: 50%;
+  border: 2px solid #666;
+  color: #666;
+  margin-right: 0.15rem;
+}
+article .sec2 .part .right span:last-child {
+  margin-right: 0rem;
+}
+article .sec2 .part .right .specil {
+  border: 2px solid #fc5459;
+  color: #fc5459;
+  background: #f8e4e5;
+}
+article .sec2 .part .right-0 span {
+  display: inline-block;
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 0.35rem;
+}
+article .sec2 .part .right-0 .blue {
+  background: #1664c4;
+}
+article .sec2 .part .right-0 .green {
+  background: #0bf3bf;
+}
+article .sec2 .part .right-0 .red {
+  background: #fc5459;
+}
+article .sec2 .part .right-0 .yellow {
+  border: 1px solid #ffc600;
+  padding: 0.1rem;
+  margin-left: 0.25rem;
+}
+article .sec2 .part .right-0 .yellow i {
+  display: inline-block;
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  background: #ffc600;
+}
+article .button {
+  width: 6.25rem;
+  height: 0.9rem;
+  margin: 0px auto;
+  font-size: 0.25rem;
+  letter-spacing: 0.05rem;
+  background: #fc5459;
+  line-height: 0.9rem;
+  text-align: center;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 0.2rem 0px #fc5459;
+}

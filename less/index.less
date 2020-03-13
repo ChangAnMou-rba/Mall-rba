@@ -1,0 +1,145 @@
+@import 'reset.css';
+@import 'common.css';
+@colorBg: rgb(252, 84, 89);
+@color  : #999;
+@width  : 7rem;
+@margin : 0px auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+
+article {
+    .banner {
+        width     : 7.5rem;
+        height    : 5.3rem;
+        background: url(../img/index-0.jpeg);
+        position  : relative;
+
+        .text {
+            display   : inline-block;
+            text-align: center;
+            margin    : 1rem 0px 0px 0.4rem;
+
+            h3 {
+                font-size  : 0.3rem;
+                font-weight: normal;
+            }
+
+            p {
+                font-size: 0.2rem;
+                margin   : 0.01rem 0rem;
+                color    : #333;
+            }
+
+            .button {
+                margin       : @margin;
+                width        : 2rem;
+                line-height  : 0.5rem;
+                background   : @colorBg;
+                font-weight  : 700;
+                border-radius: 0.5rem;
+                font-size    : 0.2rem;
+            }
+
+        }
+
+        .pointer {
+            position  : absolute;
+            bottom    : 0.4rem;
+            width     : 7.5rem;
+            text-align: center;
+            display   : inline-block;
+            left      : 0rem;
+            font-size : 0.16rem;
+
+            // width: 7.5rem;
+            span {
+                width         : 0.15rem;
+                height        : 0.15rem;
+                border-radius : 50%;
+                background    : rgb(212, 215, 218);
+                border-radius : 50%;
+                display       : inline-block;
+                vertical-align: middle;
+
+            }
+
+            .specil {
+                width     : 0.2rem;
+                height    : 0.2rem;
+                border    : 0.01rem solid white;
+                margin    : 0rem 0.1rem;
+                background: transparent;
+
+
+            }
+        }
+
+    }
+
+    section {
+        width: 7.5rem;
+
+        background: rgb(248, 248, 248);
+
+        .head {
+
+            .wrap {
+                width          : 7rem;
+                display        : flex;
+                margin         : @margin;
+                justify-content: space-between;
+                padding        : 0.35rem 0rem;
+
+                .left {
+                    
+                    h4{
+                        font-weight: normal;
+                        font-size: @font;
+                    color    : #444;
+                    }
+
+                }
+
+                .right {
+                    font-size: @font;
+                    color    : @colorBg;
+                }
+            }
+        }
+        .box{
+            width: 7rem;
+            overflow: hidden;
+            margin: @margin;
+
+        
+        .container {
+            width        : 100rem;
+            margin-bottom: 0.3rem;
+
+            .content {
+                width    : 2.7rem;
+                font-size: @font;
+                display: inline-block;
+                img {
+                    width : 2.7rem;
+                    height: 2.9rem;
+                }
+
+                p {
+                    color    : #444;
+                    font-size: @font;
+                    margin   : 0.15rem 0px 0px 0px;
+                }
+
+                span {
+                    font-size: 0.16rem;
+                    color    : @color;
+                }
+
+            }
+
+        }
+        }
+    }
+}

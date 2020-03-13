@@ -1,0 +1,117 @@
+@import 'reset.css';
+@import 'common.css';
+/*内容*/
+article .section-0 {
+  width: 7.5rem;
+  position: relative;
+}
+article .section-0 img {
+  width: 7.5rem;
+  height: 8rem;
+}
+article .section-0 .icon {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+article .section-0 .icon img {
+  width: 0.56rem;
+  height: 0.52rem;
+}
+article .section-0 .pointer {
+  width: 7.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  font-size: 0.2rem;
+  text-align: center;
+}
+article .section-0 .pointer span {
+  width: 0.15rem;
+  height: 0.15rem;
+  display: inline-block;
+  background: #d4d7da;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+article .section-0 .pointer .specil {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: transparent;
+  border: 1px solid #999999;
+}
+article .section-1 {
+  width: 7.5rem;
+  text-align: center;
+  font-size: 0.2rem;
+}
+article .section-1 h4 {
+  color: #fc5459;
+  font-size: 0.23rem;
+  margin: 0.35rem 0px 0.2rem;
+  font-weight: normal;
+}
+article .section-1 p {
+  position: relative;
+}
+article .section-1 p .right {
+  width: 0.75rem;
+  height: 0.35rem;
+  display: block;
+  color: white;
+  background: #0bf1c1;
+  line-height: 0.35rem;
+  font-size: 0.2rem;
+  position: absolute;
+  right: 1.9rem;
+  border-radius: 0.05rem;
+}
+article .section-1 p .span1 {
+  font-size: 0.22rem;
+  color: #444;
+}
+article .section-1 p .span2 {
+  font-size: 0.2rem;
+  color: #999999;
+  text-decoration: line-through;
+}
+article .section-1 .size {
+  text-align: center;
+  font-size: 0.2rem;
+  margin: 0.4rem 0rem;
+  position: relative;
+}
+article .section-1 .size span {
+  font-size: 0.23rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+  line-height: 0.7rem;
+  border-radius: 50%;
+  border: 0.02rem solid #666;
+  color: #666;
+  margin-right: 0.1rem;
+}
+article .section-1 .size .specil {
+  border: 0.02rem solid #fc5459;
+  color: #fc5459;
+  background: #f8e4e5;
+}
+article .section-1 .size .right {
+  color: #fc5459;
+  font-size: 0.25rem;
+  border: none;
+  position: absolute;
+  right: 0.6rem;
+}
+article .section-1 .button {
+  width: 6.25rem;
+  height: 0.9rem;
+  margin: 0rem auto;
+  letter-spacing: 0.05rem;
+  font-size: 0.23rem;
+  background: #fc5459;
+  line-height: 0.9rem;
+  text-align: center;
+  border-radius: 0.9rem;
+  box-shadow: 0px 0px 0.2rem 0px #fc5459;
+}

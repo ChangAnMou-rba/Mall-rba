@@ -1,0 +1,78 @@
+@import 'reset.css';
+@import 'common.css';
+@colorBg: rgb(252, 84, 89);
+@colorGreen:rgb(11,243,191);
+@color  : #999;
+@width  : 7rem;
+@margin : 0px auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+
+article{
+    width:7.5rem;
+    background: rgb(248,248,248);
+    padding-bottom: 0.5rem;
+    section{
+        margin-bottom: 2rem;
+        padding-top: 0.45rem;
+        .content{
+            width: 6.9rem;
+            margin: @margin;
+            p{
+                font-size: @font;
+                color: @color;
+            }
+            .container{
+                display: flex;
+                justify-content: space-between;
+                .box{
+                    width: 3.3rem;
+                    font-size: 0.24rem;
+                    color: #333;
+                    padding: 0.2rem 0rem;
+                    border-bottom: 1px solid #ddd;
+                }
+               
+            }
+            .part{
+                margin-top: 0.4rem;
+                .box-0{
+                    font-size: 0.24rem;
+                    color: #333;
+                    padding: 0.2rem 0rem;
+                    border-bottom: 1px solid #ddd;
+                }
+            }
+            .wrap{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                 .part-0{
+                  width: 3.3rem;
+                 }
+            }
+           
+
+        }
+    }
+
+
+
+
+
+
+
+    .button{
+        width: 6.25rem;
+        height: 0.9rem;
+        letter-spacing: 0.05rem;
+        margin: @margin;
+        font-size: 0.23rem;
+        background: @colorBg;
+        line-height: 0.9rem;
+        text-align: center;
+        border-radius: 0.9rem;
+        box-shadow: 0px 0px 0.2rem 0px @colorBg;
+    }
+}

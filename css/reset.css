@@ -1,0 +1,36 @@
+@charset 'utf-8';
+body {
+  margin: 0px;
+  font-family: "微软雅黑";
+}
+ul,
+dl,
+ol {
+  list-style: none;
+}
+ul,
+dl,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 0px;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+input {
+  text-indent: 5px;
+  outline: none;
+}

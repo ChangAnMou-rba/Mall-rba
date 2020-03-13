@@ -1,0 +1,51 @@
+@import 'reset.css';
+@colorBg: rgb(252,84,89);
+@color:#999;
+@width        : 7rem;
+@margin       : 0px auto;
+@flex      : flex;
+@font         : 0.2rem;
+
+
+/*头部导航栏*/
+header{
+    width: 7.5rem;
+    border-bottom: 1px solid #ddd;
+    padding: 0.2rem 0rem;
+    nav{
+        width: @width;
+        margin: @margin;
+        display: flex;
+        justify-content: space-between;
+        .part{
+            font-size: @font;
+            img{
+                width: 0.42rem;
+                height: 0.41rem;
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/*底部*/
+footer{
+    width: 7.5rem;
+    padding: 0.15rem 0rem;
+    border-top: 0.01rem solid #ddd;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        li{
+            a{
+                img{
+                    width: 0.63rem;
+                    height: 0.63rem;
+                }
+            }
+        }
+    }
+
+}

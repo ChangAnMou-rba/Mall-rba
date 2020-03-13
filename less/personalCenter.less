@@ -1,0 +1,102 @@
+@import 'reset.css';
+@import 'common.css';
+@colorBg: rgb(252, 84, 89);
+@colorGreen:rgb(11,243,191);
+@color  : #999;
+@width  : 7rem;
+@margin : 0px auto;
+@flex   : flex;
+@font   : 0.2rem;
+
+article{
+    width:7.5rem;
+    section{
+        background: rgb(248,248,248);
+        .bg{
+            height: 3.6rem;
+            background: radial-gradient(rgb(189,151,131),rgb(198,188,183));
+        }
+        .content{
+            text-align: center;
+            font-size: @font;
+            .boxIcon{
+                width: 1.8rem;
+                height: 1.8rem;
+                background: @colorBg;
+                margin: -0.9rem auto 0.4rem;
+
+            }
+            h5{
+                font-size: 0.24rem;
+                color: @colorBg;
+            }
+            i{
+                display: inline-block;
+                color: @color;
+                font-size: 0.23rem;
+                margin: 0.1rem 0rem 0.2rem 0rem;
+            }
+            p{
+                color: #444;
+                font-size: @font;
+                margin-bottom: 0.3rem;
+                span{
+                    display: inline-block;
+                    padding: 0rem 0.1rem;
+                    border-right: 1px solid #bbb;
+                }
+            }
+        }
+        .wrap{
+            overflow: hidden;
+            height:5.3rem;
+
+       
+        .bottom{
+            width: 6.9rem;
+            height:100rem; 
+            margin: @margin;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 0.1rem;
+            margin-bottom: 0.5rem;
+            .part{
+                padding: 0.3rem 0rem;
+                display: @flex;
+                justify-content: space-between;
+                font-size: @font;
+                border-bottom: 1px solid #ddd;
+                
+                .left{
+                    
+                    img{
+                        width: 0.57rem;
+                        height: 0.54rem;
+                        vertical-align: middle;
+                        margin: 0rem 0.35rem 0rem 0.3rem;
+                    }
+                    span{
+                        display: inline-block;
+                        font-size: 0.22rem;
+                         color: #444;
+                         vertical-align: middle;
+                    }
+                }
+                .right{
+                    margin-right: 0.2rem;
+                    line-height: 0.54rem;
+                    span{
+                        color: @colorBg;
+
+                    }
+                    img{
+                        width: 0.44rem;
+                        height: 0.47rem;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+    }
+}
